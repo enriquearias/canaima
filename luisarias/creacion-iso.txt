@@ -1,0 +1,4 @@
+descargamos los paquetes canaima-semilla e imagemagick, nos dirijimos a la ruta /usr/share/canaima-semilla 
+ingresas a la carpeta profiles dentro de ella ingresas a la carpeta primera-base luega editas el archivo profile.conf
+y lo rellenas con tus datos personales, guardamos y ejecutamos el comando c-s-gui luego de ejecutar el comando se abre 
+la interfas de canaima semilla

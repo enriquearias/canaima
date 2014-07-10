@@ -1,0 +1,500 @@
+  131  git pull
+  132  cd ../...
+  133  cd ..
+  134  cd ..
+  135  mkdir live
+  136  cd live/
+  137  mkdir iso
+  138  cd iso/
+  139  cp /home/usuario/popular/CursoaslccsTarde/scritp.sh . 
+  140  ls 
+  141  sh scritp.sh 
+  142  ls
+  143  cd config/
+  144  ls 
+  145  nano bootstrap 
+  146  cd ..
+  147  aptitude install lilve buld
+  148  aptitude install live build
+  149  aptitude search live build
+  150  aptitude search live
+  151  aptitude search live-build
+  152  ls
+  153  lb bootsrtap
+  154  lb bootstrap
+  155  ls 
+  156  cd chroot/
+  157  ls
+  158  cd ..
+  159  chroot chroot
+  160  ls -la
+  161  cd ..
+  162  cp -r iso/ iso1
+  163  cd iso
+  164  lb binary
+  165  ls -la
+  166  lb binary_iso
+  167  nano /etc/apt/sources.list
+  168  nano /etc/apt/sources.list
+  169  aptitude update
+  170  lb binary_iso
+  171  lb binary
+  172  ls -la
+  173  cd ..
+  174  ls -la
+  175  cp -r iso1 iso2
+  176  cd iso1
+  177  chroot chroot
+  178  lb binary_iso
+  179  gparted
+  180  chroot chroot
+  181  cd ..
+  182  rm -r iso1 iso2 
+  183  cd iso/
+  184  lb clean
+  185  ls 
+  186  rm -r cache/
+  187  rm -r config/
+  188  sh scritp.sh 
+  189  lb bootstrap
+  190  lb chroot
+  191  cd ..
+  192  cp -r iso/ iso1
+  193  cd iso
+  194  chroot chroot
+  195  cd ..
+  196  ls
+  197  cp -r iso/ iso2 
+  198  cd iso
+  199  ld binary
+  200  lb binary
+  201  ls -la
+  202  qemu -cdrom binary.iso -boot d -m 512
+  203  ls
+  204  cd coontrol
+  205  ls
+  206  cd Cursoaslccs/
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd ..
+  211  ls
+  212  cd iso
+  213  ls
+  214  cd ..
+  215  mkdir isos
+  216  ls
+  217  cd isos
+  218  wget http://150.188.18.131/restar
+  219  ls
+  220  wget 
+  221  wget http://150.188.18.131/res.tar
+  222  ls
+  223  tar -xvf res.tar
+  224  ls
+  225  cp -R Respaldo_isos-5 iso1
+  226  ls
+  227  cd iso1
+  228  chroot chroot/
+  229  clear
+  230  touch log.txt
+  231  ls
+  232  nano log.txt
+  233  nano log.txt
+  234  cd config
+  235  ls
+  236  nano bootstrap
+  237  nano chroot
+  238  nano binary
+  239  nano bootstrap
+  240  cd ..
+  241  chroot chroot/
+  242  ls
+  243  nano log.txt
+  244  nano log.txt
+  245  nano log.txt
+  246  cd ..
+  247  ls
+  248  cp -R iso1 iso2
+  249  cd iso1
+  250  lb binary
+  251  nano /etc/apt/sources.list
+  252  aptitude update
+  253  lb binary
+  254  lb binary_iso
+  255  cd config
+  256  ls
+  257  nano bootstrap 
+  258  cd ..
+  259  lb binary_iso
+  260  cd ..
+  261  rm iso1
+  262  rm -rf iso1
+  263  ls
+  264  cp -R iso2 iso1
+  265  ls
+  266  cd iso1
+  267  cd config
+  268  nano bootstrap 
+  269  lb binary
+  270  cd ..
+  271  lb binary
+  272  cd ..
+  273  cd ..
+  274  ls
+  275  cd iso
+  276  ls
+  277  cd iso 1
+  278  cd ..
+  279  cd ..
+  280  cd isos
+  281  ls
+  282  rm -rf iso1
+  283  cp -R iso2 iso1
+  284  cd iso1
+  285  cd config
+  286  nano bootstrap 
+  287  rm bootstrap 
+  288  cd ..
+  289  cd /home
+  290  ls
+  291  cd usuario
+  292  ls
+  293  mv bootstrap /home/usuario/isos/iso1/config/
+  294  cd isos/iso1/
+  295  lb binary
+  296  cd /home/usuario/
+  297  ls 
+  298  ls -l
+  299  cd live/
+  300  cd iso
+  301  ls
+  302  qemu -cdrom binary.iso -boot d -m 1024
+  303  cd isos
+  304  cd iso1 
+  305  cd config
+  306  ls
+  307  nano includes.chroot/
+  308  cd ..
+  309  cd ..
+  310  cd ..
+  311  ls
+  312  cd coontrol
+  313  cd Cursoaslccs
+  314  git pool
+  315  git pull
+  316  ls
+  317  nano qemu.txt 
+  318  git add qemu.txt
+  319  git commit -a
+  320  git commit -a
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd Cursoaslccs/
+  325  ls
+  326  cp qemu.txt /home/usuario/cootrol/canaima
+  327  cp qemu.txt /home/usuario/coontrol/canaima
+  328  cd ..
+  329  cd canaima
+  330  ls
+  331  git add qemu.txt
+  332  git commit -a
+  333  git push
+  334  cd ..
+  335  cd Cursoaslccs/.git/
+  336  cd ..
+  337  ls
+  338  cp Manual_Administrador.pdf /home/usuario/coontrol/canaima/
+  339  cd ..
+  340  cd canaina
+  341  cd canaima
+  342  ls
+  343  git add Manual_Administrador.pdf
+  344  git commit -a
+  345  git push
+  346  cd isos
+  347  mkdir isos10
+  348  cd isos10/
+  349  lb config
+  350  ls
+  351  lb build
+  352  cd isos
+  353  ls
+  354  cp -R iso2 iso3
+  355  ls
+  356  cd iso2
+  357  cd config
+  358  nano bootstrap 
+  359  nano binary
+  360  nano bootstrap 
+  361  nano bootstrap 
+  362  cd ..
+  363  lb binary
+  364  quemu -cdrom binary.iso -boot d -m 1024
+  365  qemu -cdrom binary.iso -boot d -m 1024
+  366  ls
+  367  qemu-img create imegen.img 2G
+  368  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  369  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  370  qmu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  371  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  372  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  373  qemu -hda imegen.img -cdrom binary.iso -boot d -m 1024
+  374  cd config
+  375  nano binary
+  376  cd ..
+  377  lb binary_iso
+  378  lb binary clean
+  379  lb binary_iso
+  380  cd ..
+  381  ls
+  382  rm -rf iso2
+  383  cp -R iso3 iso2
+  384  cd iso2
+  385  cd config
+  386  nano binary
+  387  nano bootstrap 
+  388  clear
+  389  rm bootstrap 
+  390  cd usuario
+  391  cd /usuario
+  392  cd ..
+  393  cd ..
+  394  cd ..
+  395  ls
+  396  mv bootstrap /home/usuario/isos/iso2/config/
+  397  cd isos
+  398  cd iso2
+  399  cd config/
+  400  ls
+  401  cd ..
+  402  chroot chroot
+  403  lb binary
+  404  qemu-img create imagen.img 2G
+  405  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  406  cd ../ ..
+  407  cd ..
+  408  ls 
+  409  cd live/
+  410  ls 
+  411  cp -r iso2 iso3
+  412  cd iso2/
+  413  chroot chroot
+  414  ls
+  415  ls -l
+  416  ls -la
+  417  cd config/
+  418  ls -la
+  419  nano bootstrap 
+  420  nano binary
+  421  cd ..
+  422  ls
+  423  cd chroot
+  424  ls 
+  425  cd ..
+  426  chroot chroot
+  427  ls
+  428  cd config/
+  429  ls
+  430  cd includes.chroot/
+  431  ls 
+  432  ls -la
+  433  mkdir etc
+  434  cd etc/
+  435  mkdir skel
+  436  cd skel/
+  437  cp -r
+  438  cp -R /home/usuario/.gconf .
+  439  cp -R /home/usuario/.gconfd .
+  440  cp -R /home/usuario/ ls
+  441  cp -R /home/usuario/.config/
+  442  cp -R /home/usuario/.config .
+  443  cp -R /home/usuario/.gnome2 .
+  444  cp -R /home/usuario/.mozilla/ .
+  445  ls
+  446  ls
+  447  cd ls/
+  448  ls
+  449  cd ..
+  450  lls
+  451  ls
+  452  cd ls/
+  453  ls
+  454  cd /home/usuario/
+  455  ls
+  456  cd live/
+  457  ls
+  458  cd iso2/
+  459  ls
+  460  cd config/
+  461  ls
+  462  ls
+  463  cd includes.chroot/
+  464  ls
+  465  cd etc/skel/
+  466  ls
+  467  rm  ls
+  468  rm -rf ls/
+  469  cp -R /home/usuario/.gconf/ .
+  470  ls
+  471  ls -la
+  472  cd ..
+  473  cd skel/
+  474  ls
+  475  cd .config/
+  476  ls
+  477  cd ..
+  478  cd ..
+  479  cd ..
+  480  cd ..
+  481  cd ..
+  482  cd ..
+  483  ls
+  484  cp -R iso2/ iso2.1}
+  485  ls
+  486  rm -rf iso2.1}/
+  487  cp -R iso2/ iso2.1
+  488  cd iso2
+  489  ls 
+  490  lb binary
+  491  ls -la
+  492  chroot chroot
+  493  cd /root/
+  494  ls -la
+  495  local isolinux
+  496  locate isolinux
+  497  exit
+  498  chroot chroot
+  499  cd opt
+  500  cd /opt
+  501  ls
+  502  cd Cursoaslccs/
+  503  cd luisarias
+  504  touch Examen-18710517
+  505  ls
+  506  rm Examen-18710517 
+  507  ls
+  508  touch Examen-18710517.txt
+  509  ls
+  510  nano Examen-18710517.txt 
+  511  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+  512  ls
+  513  ls -la
+  514  chmod 065 -R curso1.txt 
+  515  chmod 726 -R curso2.txt 
+  516  chmod 111 -R curso3.txt 
+  517  chmod 227 -R curso4.txt 
+  518  chmod 064 -R curso5.txt 
+  519  ls -la
+  520  fdisk -l
+  521  cfdisk 
+  522  sfdisk 
+  523  ps -axu | grep 
+  524  ps -axu 
+  525  ps -axu 
+  526  mkdir libreofficewriter
+  527  cd libreofficewriter/
+  528  ps -axu 
+  529  ls
+  530  ps -axu
+  531  ps -axu | /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5 > a.txt
+  532  ls
+  533* 
+  534  ls
+  535  nano a.txt 
+  536  nano a.txt 
+  537  cd ..
+  538  mkdir procesador
+  539  ls
+  540  more /proc/cpuinfo 
+  541  more /proc/cpuinfo < procesador.txt
+  542  more /proc/cpuinfo <procesador.txt
+  543  more /proc/cpuinfo >procesador.txt
+  544  ls
+  545  nano procesador.txt 
+  546  more examen 
+  547  more examen.txt 
+  548  aptitude search sl
+  549  sl
+  550  sh sl
+  551  mkdir sl
+  552  ls
+  553  apt -get sources sl
+  554  apt-get sources sl
+  555  apt-get source sl
+  556  apt -get sources sl
+  557  apt-get sources sl
+  558  apt -get source sl
+  559  apt-get source sl
+  560  sl
+  561  nano sl
+  562  aptitude search sl
+  563  buil-essential
+  564  build-essential
+  565  buil d-essential
+  566  build -essential
+  567  aptitude install build-essential
+  568  aptitude install dpkg-dv
+  569  aptitude install dpkg-dev
+  570  sl
+  571  aptitude install sl
+  572  aptitude install dpkg-dev
+  573  sl
+  574  LS
+  575  cd sl/
+  576  sl
+  577  ls
+  578  sl
+  579  aptitude install dpkg-dev
+  580  aptitude install build-essential
+  581  sl
+  582  ls
+  583  sl
+  584  sl
+  585  cd ..
+  586  aptitude show sl
+  587  aptitude search sl
+  588  clear
+  589  mkdir canaima-semilla
+  590  aptitude search canaima-semilla
+  591  aptitude search imagemagick
+  592  ls profile/popular
+  593  ls profile /popular
+  594  lsprofile /popular
+  595  profile /popular
+  596  profile/popular
+  597  cp -R primera-base /luisarias
+  598  cp -R primera-base luisarias
+  599  sl
+  600  ls
+  601  cd canaima-semilla/
+  602  ls
+  603  profile7popular
+  604  profile/popular
+  605  ls profile/popular
+  606  ls profile /popular
+  607  cd ..
+  608  cd /usr/share/canaima-semilla
+  609  ls
+  610  cd profiles
+  611  ls
+  612  cp -R primera-base /opt/Cursoaslccs/luisarias/canaima-semilla/
+  613  cd /opt/Cursoaslccs/luisarias/canaima-semilla/
+  614  ls
+  615  cd primera-base/
+  616  ls
+  617  nano profile.conf 
+  618  c - s - gui
+  619  c -s -gui
+  620  c-s-gui
+  621  ls
+  622  nano profile.conf 
+  623  cd ..
+  624  cd ..
+  625  nano /etc/apt/sources.list
+  626  nano /etc/apt/deb-mirror
+  627  nano /etc/apt/mirror.list 
+  628  fdisk -l
+  629  history
+  630  history >history.txt

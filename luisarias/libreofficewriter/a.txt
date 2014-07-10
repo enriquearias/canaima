@@ -1,0 +1,1 @@
+ps -axu | libreofficewriter > a.txt
